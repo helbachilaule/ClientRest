@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REST COUNTRIES API</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 class="text-center">Rest Countries API</h1>
+	<div id="main-container">
+		<div id="flag-container">
+			<img src="" alt="">
+		</div>
+		<div id="info-container">
+			<select id="countries" class="countries">
+				
+			</select>
+			<p>Capital: <span id="capital"></span></p>
+			<p>Dialing Code: <span id="dialing-code"></span></p>
+			<p>Region: <span id="region"></span></p>
+			<p>Subregion: <span id="subregion"></span></p>
+			<p>Population: <span id="population"></span></p>
+			<p>Area: <span id="area"></span></p>
+			<p>Time-Zone: <span id="timezones"></span></p>
+			<p>Native Name: <span id="nativeName"></span></p>
+			
+		</div>
+		<div class="export-csv">
+			<button id="botaoXML">Download XML</button>
+			<button id="botaoCSV">Download CSV</button>
+			<button id="botaoXLS">Download XLS</button>
+		</div>
+
+	</div>
+	<script src="main.js"></script>
+	<script src="convert.js"></script>
+</body>
+</html>
